@@ -30,7 +30,7 @@ Candidate 2
   c2_pixel = original_pixel
   ...
 ```
-To encourage robust patterns that don't skew towards 0 or 1, we enforce that the sum of the weights (which randomly fall between 0 and 1) falls between -0.5 and 0.5. To increase the parameter space, we also don't enforce rules like low < high for threshold values, allowing for dud rules. <br><br>
+To encourage robust patterns that don't skew towards 0 or 1, we enforce that the sum of the weights (which randomly fall between 0 and 1) falls between -0.5 and 0.5. To increase the parameter space, we also don't enforce restrictions like low < high for threshold values, allowing for dud rules. <br><br>
 Ultimately, each candidate produces its own value based on the original pixel value, and we choose the candidate value that changes the pixel value MOST as our new pixel value. There are a number of different ways to score the candidates, but this method seems to work well.
 ### Developing a Ruleset
 While randomizing patterns can produce interesting results, we can take individual patterns further by modifying them to our liking. Here is an example of a pattern I discovered by randomizing and the new pattern I developed from it:
