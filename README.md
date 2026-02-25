@@ -1,5 +1,5 @@
 # MNCA Discovery Tool
-A tool for discovering and designing selective multiple neighborhood cellular automata. Big thank you to Slackermanz who explained a lot of this difficult shit to me!<br><br><br>
+A Godot tool for discovering and designing selective multiple neighborhood cellular automata. Big thank you to Slackermanz who explained a lot of this difficult shit to me!<br><br><br>
 
 # Multiple Neighborhood Cellular Automata
 (Source: https://slackermanz.com/understanding-multiple-neighborhood-cellular-automata/) <br><br>
@@ -44,5 +44,23 @@ While randomizing patterns can produce interesting results, we can take individu
 Because the parameter space is so huge, editing a pattern by hand is near impossible. Instead, I apply small but random changes to the ruleset. If I don't like the updated pattern, I discard it and revert to the previous ruleset. If I do, I keep iterating until I reach a pattern I'm happy with. <br><br><br>
 
 # Seeding the pattern
-Initially, I was seeding my patterns with classic Perlin noise, which looks something like:
+Initially, I was seeding my patterns with classic Perlin noise. However, I realized that Perlin noise is too muddy and uniform for certain patterns that require specific seeds to take shape. To increase the diversity and contrast of the seed, I opt for a sketchy method where I layer three distinctly sized Perlin noise fields on top of one another and emphasize highly dense or overlapping regions. While it probably isn't the most efficient way of creating the desired seeding, it works well enough for my purposes. The before and after:
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="images/perlin.png" width="600"><br>
+    </td>
+    <td align="center" width="25%">
+      <img src="images/mnca_seed.png" width="600"><br>
+    </td>
+  <tr>
+<table>
 
+### Other challenges
+Learning how to hook up compute shaders in Godot took longer than it should have, and there were many small UX/QOL considerations I made (i.e. save vs. save as, hashing/sorting rulesets, trackpad + mouse compatibility etc.). Overall it was a very fun project that I intend to continue polishing!
+
+# Acknowledgements
+Thank you to:<br>
+[This website](https://slackermanz.com/) and Slackermanz himself, who helped me with a lot regarding MNCA,<br>
+Stefan Gustavson for his GLSL implementation of Perlin noise that I ended up using,<br>
+ChatGPT.
