@@ -15,7 +15,7 @@ My tool randomizes the following parameters: <br>
 ```
 * 8 (outer radius, inner radius) neighborhoods as annuli, radius in [0, 12]
 * 32 thresholds / 16 rule pairs, value in [0, 1]
-* 16 weights, value in [-1, 1]
+* 16 weights, value in [-0.075, 0.075]
 ```
 We then create four candidate rulesets to select from. Each candidate ruleset consists of 2 neighborhoods, and each neighborhood is given 2 rules. A rule consists of 2 threshold values (low, high): if the neighborhood average falls within this range, we apply the corresponding weight for this rule. Thus, each candidate is its own MNCA "pattern". (note that we do NOT sum all the rules, each candidate produces its own value)
 ```
