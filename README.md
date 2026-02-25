@@ -60,7 +60,7 @@ Initially, I was seeding my patterns with classic Perlin noise. However, I reali
 <table>
 
 ### Other challenges
-Learning how to hook up compute shaders in Godot took longer than it should have, and there were many small UX/QOL considerations I made (i.e. save vs. save as, hashing/sorting rulesets, trackpad + mouse compatibility etc.). Overall it was a very fun project that I intend to continue polishing!
+Learning how to hook up compute shaders in Godot took longer than it should have, and there were many small UX/QOL considerations I made (i.e. save vs. save as, hashing/sorting rulesets, trackpad + mouse compatibility etc.). Overall it was a very fun project that I intend to continue polishing!<br><br><br>
 
 # Acknowledgements
 Thank you to:<br>
