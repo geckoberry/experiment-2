@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://bpfroo05j01pu"
+path="res://.godot/imported/ca_step.glsl-3750851a3fc93f0867e1015e899d751c.res"
+
+[deps]
+
+source_file="res://shaders/ca_step.glsl"
+dest_files=["res://.godot/imported/ca_step.glsl-3750851a3fc93f0867e1015e899d751c.res"]
+
+[params]
+
