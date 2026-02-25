@@ -1,5 +1,8 @@
 # MNCA Discovery Tool
-A Godot tool for discovering and designing selective multiple neighborhood cellular automata. Big thank you to Slackermanz who explained a lot of this difficult shit to me!<br><br><br>
+A Godot tool for discovering and designing selective multiple neighborhood cellular automata. Big thank you to Slackermanz who explained a lot of this difficult shit to me!
+### Demo Video
+[![Alt text](images/thumbnail.png)](https://www.youtube.com/watch?v=o9z9uce1sM8&t=25s)
+<br><br><br>
 
 # Multiple Neighborhood Cellular Automata
 (Source: https://slackermanz.com/understanding-multiple-neighborhood-cellular-automata/) <br><br>
