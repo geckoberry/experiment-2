@@ -6,7 +6,7 @@ A Godot tool for discovering and designing selective multiple neighborhood cellu
 
 # Multiple Neighborhood Cellular Automata
 (Source: https://slackermanz.com/understanding-multiple-neighborhood-cellular-automata/) <br><br>
-MNCA builds upon the concepts of Conway's game of life, utilizing 1) larger, more complex neighborhoods (often as 1 or more annuli) 2) multiple such neighborhoods, hence the name. Similar to Conway's, we take the average value of a neighborhood (neighborhood sum / neighborhood max) and compare this value to some predetermined pair of thresholds to decide the value of the pixel. Unlike Conway's, we do this calculation for all neighborhoods to settle on the final value, which can be done by setting the value as 1 or 0 explicitly or adding/subtracting a weight.
+MNCA builds upon the concepts of Conway's game of life, utilizing 1) larger, more complex neighborhoods (often as 1 or more annuli) 2) multiple such neighborhoods, hence the name. Similar to Conway's, we take the average value of a neighborhood (neighborhood sum / neighborhood max) and compare this value to some predetermined pair of thresholds to decide the value of the pixel. We do this calculation for all neighborhoods to settle on the final value, which can be done by setting the value as 1 or 0 explicitly or adding/subtracting a weight.
 ### Selective MNCA
 Selective MNCA (also by Slackermanz) is a variant of MNCA, in which we calculate multiple MNCA rulesets per pixel per frame, and use some function to score each ruleset and pick one for that particular pixel and frame. SMNCA massively increases the parameter space and expressive capability of MNCA.<br><br><br>
 
