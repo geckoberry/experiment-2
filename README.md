@@ -66,4 +66,5 @@ Learning how to hook up compute shaders in Godot took longer than it should have
 Thank you to:<br>
 [This website](https://slackermanz.com/) and Slackermanz himself, who helped me with a lot regarding MNCA,<br>
 Stefan Gustavson for his GLSL implementation of Perlin noise that I ended up using,<br>
+Jayvee Enaguas who made [the typeface ](https://www.dafont.com/pixel-operator.font) I used,<br>
 ChatGPT.
