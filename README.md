@@ -10,7 +10,7 @@ MNCA builds upon the concepts of Conway's game of life, utilizing 1) larger, mor
 ### Selective MNCA
 Selective MNCA (also by Slackermanz) is a variant of MNCA, in which we calculate multiple MNCA rulesets per pixel per frame, and use some function to score each ruleset and pick one for that particular pixel and frame. SMNCA massively increases the parameter space and expressive capability of MNCA.<br><br><br>
 
-# My SMNCA pattern design
+# SMNCA pattern design
 My tool randomizes the following parameters: <br>
 ```
 * 8 (outer radius, inner radius) neighborhoods as annuli, radius in [0, 12]
