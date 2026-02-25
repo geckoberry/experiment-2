@@ -47,7 +47,7 @@ While randomizing patterns can produce interesting results, we can take individu
 Because the parameter space is so huge, editing a pattern by hand is near impossible. Instead, I apply small but random changes to the ruleset. If I don't like the updated pattern, I discard it and revert to the previous ruleset. If I do, I keep iterating until I reach a pattern I'm happy with. <br><br><br>
 
 # Seeding the pattern
-Initially, I was seeding my patterns with classic Perlin noise. However, I realized that Perlin noise is too muddy and uniform for certain patterns that require specific seeds to take shape. To increase the diversity and contrast of the seed, I opt for a sketchy method where I layer three distinctly sized Perlin noise fields on top of one another and emphasize highly dense or overlapping regions. While it probably isn't the most efficient way of creating the desired seeding, it works well enough for my purposes. The before and after:
+Initially, I was seeding my patterns with classic Perlin noise. However, I realized that Perlin noise is too muddy and uniform for patterns that require specific conditions to take shape. To increase the diversity and contrast of the seed, I opt for a sketchy method where I layer three distinctly sized Perlin noise fields on top of one another and emphasize highly dense or overlapping regions. While it probably isn't the most efficient way of creating the desired seeding, it works well enough for my purposes. The before and after:
 <table>
   <tr>
     <td align="center" width="25%">
